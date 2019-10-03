@@ -3,7 +3,7 @@ package interpreter
 class Runner (AST: AbstractSyntaxTree) {
     val context: MutableList<Context> = getGlobalContext(AST).toMutableList()
 
-    val stack: =
+    val stack: ArrayList
 
     fun run() {
 
